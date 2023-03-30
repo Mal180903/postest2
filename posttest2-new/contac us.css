@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+    background-image:url("contact-us-communication-support-service-assistance-concept_53876-128103.avif");
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+    color: aliceblue;
+}
+
+label{
+    color: aliceblue;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input, textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #000000;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
